@@ -9,3 +9,4 @@ I'm Christian Stenbøg Carstens, im a "datamatiker" student at KEA. I hope that 
 Here are some links to my github, i would appreciate if you would check out some of my other projects.
 
 https://github.com/Christiansc98
+https://github.com/Christiansc98/southparkapp/settings/pages
