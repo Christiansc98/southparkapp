@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-size: 1em;
+  background-image: url(background/303963.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 9999;
+  letter-spacing: 0.4px;
+  color: greenyellow;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: rgba(128, 0, 128, 0.5); /* purple color with 50% opacity */
+  color: gold;
+  padding: 1em;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 3fr;
+  gap: 2em;
+  padding: 4em;
+}
+
+@media (min-width: 1200px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.grid-container > article {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+  padding: 1em;
+  background-color: rgba(70, 149, 209, 0.38);
+}
+
+.grid-container > article:hover {
+  box-shadow: 0 8px 20px 0 gold;
+}
+
+.grid-container img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.grid-container p {
+  margin: 1em 0;
+}
+
+form {
+  margin: 0.5em auto 0;
+  text-align: center;
+}
+
+dialog {
+  border-color: gold;
+  background-color: green;
+  width: 65vw;
+  padding: 2em 1em;
+}
+
+.dialog-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+button {
+  font-weight: 500;
+  font-size: 1em;
+  text-align: center;
+  cursor: pointer;
+  border: gold;
+  border-radius: 2;
+  color: gold;
+  background-color: rgba(128, 0, 128, 0.5);
+  letter-spacing: 1em;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  width: 100%;
+  max-width: 500px;
+}
+
+footer {
+  background-color: rgba(67, 67, 228, 0.43);
+  color: gold;
+  padding: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
